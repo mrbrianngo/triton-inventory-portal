@@ -67,8 +67,11 @@ export default function Home() {
     <div className="container">
       <NavBar />
       <p className="page-description">
-        Enter your event details and product collection below. The portal will apply its multi-variable demand
-        forecasting model to generate a data-driven production plan for each item.
+        The Triton Inventory Portal is a specialized prescriptive analytics overlay designed specifically 
+        for student-run organizations. By bridging the gap between qualitative social media sentiment and 
+        physical manufacturing orders, the backend maps raw pre-event parameters directly to a risk-mitigation 
+        single-period optimization framework. It acts as an operational layer to eliminate post-event deadstock 
+        while ensuring high-impulse event demand is fully captured.
       </p>
 
       <main className="main-grid">
@@ -207,7 +210,7 @@ export default function Home() {
                           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
                             <div>
                               <h3 style={{ color: '#1d1d1f', marginBottom: '0.25rem', fontSize: '1.3rem' }}>{pred.name}</h3>
-                              <p style={{ color: '#86868b', fontSize: '0.9rem', fontWeight: 500 }}>Optimized Streetwear Size Distribution</p>
+                              <p style={{ color: '#86868b', fontSize: '0.9rem', fontWeight: 500 }}>Prescriptive Streetwear Curve • Calibrated for Collegiate Anthropometric Silhouettes</p>
                             </div>
                             <div style={{ textAlign: 'right' }}>
                               <span style={{ fontSize: '0.85rem', color: '#86868b', textTransform: 'uppercase', fontWeight: 600, letterSpacing: '0.5px' }}>Total Units</span>

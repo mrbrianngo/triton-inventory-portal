@@ -1,6 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Triton Inventory Portal
 
-## Getting Started
+The **Triton Inventory Portal** is a specialized prescriptive analytics overlay designed specifically for the unique operational demands of student-run organizations and collegiate merchandise operations. 
+
+## The Vacant Niche
+
+Student organizations are heavily supported by general administrative software (like Springly or Orbi), bulk manufacturing networks (like Fresh Prints), and point-of-sale registers (like Square or Shopify POS). However, there is a massive operational gap when it comes to **bridging volatile, qualitative pre-event sentiment data with physical manufacturing placement.** 
+
+This application fills that specific void. It is intentionally designed to integrate alongside standard club management platforms and campus POS systems. It acts as an elite decision optimization layer that translates erratic social media polls and expected attendance metrics into explicit, risk-adjusted production volumes. 
+
+## End-to-End Prescriptive Analytics
+
+The portal employs a single-period Newsvendor optimization framework to protect student organizational budgets. Rather than outputting blind guesses, the backend calculates empirical mean demands ($\mu$), models standard deviation error variance ($\sigma$), and derives the financial Critical Ratio ($CR$) using explicit economic cost variables (Retail Price, Production COGS, and Salvage Value).
+
+It eliminates post-event deadstock while ensuring high-impulse event demand is captured at peak operational efficiency.
+
+## Development
 
 First, run the development server:
 
@@ -15,22 +29,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

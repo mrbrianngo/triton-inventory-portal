@@ -10,6 +10,7 @@ export default function NavBar() {
   const tabs = [
     { label: 'Prediction Portal', href: '/' },
     { label: 'How It Works', href: '/how-it-works' },
+    { label: 'Why This?', href: '/why-this' },
   ];
 
   return (
